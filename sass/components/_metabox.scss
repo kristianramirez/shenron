@@ -1,0 +1,40 @@
+/* metabox */
+.metabox {
+	/* size and positioning */
+	display: flex;
+	flex-direction: column;
+	min-width: 10em;
+	margin: 0 1.5em 0 0;
+}
+
+.post-type {
+	/* size and positioning */
+	display: flex;
+	flex-direction: row;
+	
+	img {
+		/* size and positioning */
+		height: 56px;
+	}
+	
+	img:hover {
+		/* other */
+		background-color: $color-grey;
+	}
+}
+
+.crosspost-source {
+	/* size and positioning */
+	display: flex;
+	flex-direction: row;
+}
+
+.dateline {
+	/* alignment */
+	display: flex;
+	flex-direction: row;
+	margin: .1em 0 0 0;
+	
+	/* typography */
+	font-size: .8em;
+}

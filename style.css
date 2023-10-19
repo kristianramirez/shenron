@@ -182,4 +182,217 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* General Page Layouts */
+#page-box {
+  /* Alignment */
+  min-width: 80%;
+  max-width: 90%;
+  margin: 0 auto 0 auto; }
+
+#content-box {
+  /* Alignment */
+  width: 800px;
+  margin: 0 auto 0 auto; }
+
+#page-content {
+  width: 650px;
+  margin: 0 auto 0 auto;
+  padding-left: 20em; }
+  #page-content ul {
+    list-style-type: circle;
+    margin: .5em 0 .5em 1.2em; }
+  #page-content li {
+    margin: .2em 0 .2em 0; }
+  #page-content h3 {
+    font-size: 1.5em; }
+
+.page-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  padding-left: 6em; }
+
+/* Archive & Search Pages */
+/* boxes */
+#archive-box, #search-box {
+  /* size and positioning */
+  width: 650px;
+  margin: 0 auto 0 auto;
+  padding-left: 20em; }
+
+/* misc. */
+.archive-title, .search-title {
+  font-family: "Roboto", sans-serif;
+  margin-top: .7em;
+  font-size: 1.2em; }
+
+#archive-list {
+  list-style: none; }
+
+.archive-dateline {
+  margin-top: 3.5em; }
+
+.archive-dateline h2 {
+  font-size: 1.4em;
+  text-transform: uppercase; }
+
+/* About Page */
+#about-img {
+  transform: rotate(90deg);
+  width: 250px; }
+
+/* misc. */
+#searchfield {
+  width: 20em; }
+
+#main-box {
+  margin: 3em 0 3em 0; }
+
+#header-img {
+  /* size */
+  width: 650px;
+  /* positioning */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em; }
+
+#site-author {
+  /* typography */
+  text-align: center;
+  font-size: 1.5em;
+  /* positioning */
+  margin-bottom: 1em; }
+
+#navbar {
+  /* size */
+  padding: 0.5em 0 0.1em;
+  /* misc. stuff */
+  background-color: #b22234; }
+
+#nav-menu {
+  /* Typography */
+  text-transform: uppercase;
+  /* size & positioning */
+  width: 45em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  #nav-menu a {
+    /* typography */
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #FFFFFF;
+    /* alignment */
+    padding: .33em .75em .22em .75em; }
+  #nav-menu a:hover {
+    /* typography */
+    text-decoration: none;
+    /* misc. */
+    background-color: #002663; }
+
+#header {
+  margin-bottom: 3em; }
+
+.post-box {
+  display: flex;
+  flex-direction: row;
+  margin: 2em 0 3em 0; }
+
+.pager {
+  /* alignment */
+  margin: 4em auto 2em auto;
+  text-align: center;
+  /* size */
+  height: 1em;
+  width: 800px; }
+  .pager ul {
+    /* typography */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    list-style: none; }
+  .pager li {
+    margin: 0 .3em 0 .3em; }
+
+/* metabox */
+.metabox {
+  /* size and positioning */
+  display: flex;
+  flex-direction: column;
+  min-width: 10em;
+  margin: 0 1.5em 0 0; }
+
+.post-type {
+  /* size and positioning */
+  display: flex;
+  flex-direction: row; }
+  .post-type img {
+    /* size and positioning */
+    height: 56px; }
+  .post-type img:hover {
+    /* other */
+    background-color: #D3D0CB; }
+
+.crosspost-source {
+  /* size and positioning */
+  display: flex;
+  flex-direction: row; }
+
+.dateline {
+  /* alignment */
+  display: flex;
+  flex-direction: row;
+  margin: .1em 0 0 0;
+  /* typography */
+  font-size: .8em; }
+
+/* titles */
+.article-title, .linked-title, .crosspost-title {
+  /* typography */
+  font-family: "Roboto", sans-serif;
+  letter-spacing: .05em;
+  /* size and positioning */
+  margin-bottom: .1em; }
+
+.article-title {
+  /* typography */
+  font-size: 1.55em;
+  line-height: 1.5em;
+  font-weight: bold; }
+  .article-title a {
+    /* typography */
+    color: #002663; }
+  .article-title a:hover {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #b22234;
+    text-decoration-color: #b22234; }
+
+.linked-title, .crosspost-title {
+  /* typography */
+  line-height: 1.15em;
+  font-size: 1.05em;
+  font-weight: 500;
+  text-transform: uppercase; }
+  .linked-title img, .crosspost-title img {
+    /* size and positioning */
+    height: 1.0em;
+    margin-left: .75em;
+    vertical-align: bottom; }
+  .linked-title img:hover, .crosspost-title img:hover {
+    background-color: #D3D0CB; }
+  .linked-title a, .crosspost-title a {
+    /* typography */
+    color: #002663;
+    -webkit-text-decoration-color: #b22234;
+    text-decoration-color: #b22234; }
+
+#footer {
+  /* positioning */
+  width: 50%;
+  margin: 4em auto 0 auto;
+  padding-bottom: 1em;
+  /* typography */
+  text-align: center; }
+
 /*# sourceMappingURL=style.css.map */

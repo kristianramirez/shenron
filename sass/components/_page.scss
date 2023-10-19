@@ -1,0 +1,80 @@
+/* General Page Layouts */
+
+#page-box {
+	 /* Alignment */
+	 min-width: 80%;
+	 max-width: 90%;
+	 margin: 0 auto 0 auto;
+}
+
+#content-box {
+	 /* Alignment */
+	 width: $content-width;
+	 margin: 0 auto 0 auto;
+}
+
+#page-content {
+	width: $header-img-size;
+	margin: 0 auto 0 auto;
+	padding-left: 20em;
+
+	ul {
+		list-style-type: circle;
+		margin: .5em 0 .5em 1.2em;
+	}
+
+	li {
+		margin: .2em 0 .2em 0;
+	}
+
+	h3 {
+		font-size: 1.5em;
+	}
+}
+
+.page-title {
+	font-family: $heading-font;
+	font-size: 2em;
+	padding-left: 6em
+	
+}
+
+/* Archive & Search Pages */
+/* boxes */
+#archive-box, #search-box {
+	/* size and positioning */
+	width: $header-img-size;
+	margin: 0 auto 0 auto;
+	padding-left: 20em;
+}
+
+/* misc. */
+.archive-title, .search-title {
+	font-family: $heading-font;
+	margin-top: .7em;
+	font-size: 1.2em;
+}
+
+#archive-list {
+	list-style: none;
+}
+
+.archive-dateline {
+	margin-top: 3.5em;
+}
+
+.archive-dateline h2 {
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+/* About Page */
+#about-img {
+	transform: rotate(90deg);
+	width: 250px;
+}
+
+/* misc. */
+#searchfield {
+	width: 20em;
+}

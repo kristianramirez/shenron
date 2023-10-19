@@ -1,0 +1,65 @@
+#main-box {
+	margin: 3em 0 3em 0;
+}
+
+#header-img {
+    /* size */
+    width: $header-img-size;
+	
+    /* positioning */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+
+}
+
+#site-author {
+	/* typography */
+	text-align: center;
+	font-size: 1.5em;
+	
+	/* positioning */
+	margin-bottom: 1em;
+}
+
+#navbar {
+	/* size */
+	padding: 0.5em 0 0.1em;
+
+	/* misc. stuff */
+	background-color: $color-secondary;
+}
+
+#nav-menu {
+	/* Typography */
+	text-transform: uppercase;
+
+	/* size & positioning */
+	width: 45em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+	a {
+		/* typography */
+		font-size: 1.5em;
+		font-weight: bold;
+		color: $color-white;
+		
+		/* alignment */
+		padding: .33em .75em .22em .75em;
+	}
+	
+	a:hover {
+		/* typography */
+		text-decoration: none;
+	
+		/* misc. */
+		background-color: $color-primary;
+	}
+} 
+
+#header {
+	margin-bottom: 3em;
+}
