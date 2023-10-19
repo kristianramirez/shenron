@@ -1,0 +1,185 @@
+/*
+ * Theme Name: Shenron
+ * Author: Kristian Ramirez
+ * Description: An orignal theme for Dragonami.com
+ * Version: 0.1
+ * License: GNU General Public License ve or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: shenron
+ */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  /* typography */
+  font-size: 100%;
+  /* size & positioning */
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  height: auto; }
+
+html {
+  /* typography */
+  font-size: 12px;
+  color: #002663;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  text-transform: none;
+  font-weight: normal;
+  text-align: left;
+  letter-spacing: normal;
+  line-height: 1.8em;
+  /* other */
+  background-color: #FFFFFF; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+a {
+  /* typography*/
+  text-decoration: none;
+  color: #b22234; }
+
+a:hover {
+  /* typography */
+  color: #002663;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #b22234;
+  text-decoration-color: #b22234; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none; }
+
+blockquote {
+  /* Positioning */
+  margin: 2em 2em 2em 1em;
+  padding: 0 .75em 0 1.25em;
+  /* misc */
+  border-left: 2px solid #b22234;
+  outline: 0; }
+
+form {
+  width: 23.8em;
+  margin: 1em auto 5em auto; }
+
+h3 {
+  margin: .5em 0 .5em 0; }
+
+hr {
+  height: 1px;
+  background: #b22234;
+  border: 0; }
+
+p {
+  margin: 1em 0 1em 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*# sourceMappingURL=style.css.map */

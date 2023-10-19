@@ -1,0 +1,4 @@
+@mixin text-decoration-color($property) {
+  -webkit-text-decoration-color: $property;
+          text-decoration-color: $property;
+}
