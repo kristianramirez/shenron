@@ -27,6 +27,32 @@ add_theme_support( 'post-formats', array( 'link', 'status', 'aside', 'image', 'a
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *                                Custom Functions                              *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+ // Get post format as a string for display purposes
+ function shnrn_get_format( $post = null ) {
+     
+     if ( $post = get_post( $post ) ) {
+         
+         
+         switch ( get_post_format( $post ) ) {
+              
+            case "link":
+                return "link";
+                break;
+            case "Micro.blog":
+                return "microblog";
+                break;	
+            case 'aside':
+                return 'crosspost';
+                break;
+            default:
+                return "article";
+                break;
+                      
+        }	
+     }
+     
+ }
+ 
  // Get post category as a string for display purposes
 function shnrn_post_category( $post = null ) {
     if ( $post = get_post( $post ) ) {

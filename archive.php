@@ -17,7 +17,12 @@
             	$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 
             	$args =  array( 
-                            	'category_name'     => 'article',
+                            	'tax_query'         => array(
+                                                            array(
+                                                                 'taxonomy'       => 'post_format',
+                                                                 'operator'       => 'NOT EXISTS',
+                                                            ),
+                                                       ),
                             	'orderby'           => 'date',
                             	'order'             => 'DESC',
 								'posts_per_page'    => 500,

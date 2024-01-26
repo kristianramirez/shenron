@@ -8,13 +8,13 @@
         if ( have_posts() ) :
             while ( have_posts() ) : the_post();
                             
-                // Print horizontal rule to separate posts of different categories
-                $category;
-                shnrn_print_category_break( get_the_ID(), $category );
-                $category = shnrn_post_category();
+                // Print horizontal rule to separate posts of different formats
+                $format;
+                shnrn_print_category_break( get_the_ID(), $format );
+                $format = shnrn_get_format();
                             
                 // post content
-                get_template_part( 'template-parts/post/content', shnrn_post_category() );
+                get_template_part( 'template-parts/post/content', shnrn_get_format() );
 
             endwhile; ?>
                 

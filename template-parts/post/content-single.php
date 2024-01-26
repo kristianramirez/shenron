@@ -1,6 +1,6 @@
 <div class="post-box">
 
-	<?php get_template_part( 'template-parts/metabox/metadata', 'article' ) ?>	
+	<?php get_template_part( 'template-parts/metabox/metadata', 'standard' ) ?>	
 		
 	<div class="content-box">
 	
